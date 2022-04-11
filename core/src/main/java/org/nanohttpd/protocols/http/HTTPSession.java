@@ -108,6 +108,10 @@ public class HTTPSession implements IHTTPSession {
     private String queryParameterString;
 
     private String remoteIp;
+    
+    private int remotePort;
+    
+    
 
     private String protocolVersion;
 
@@ -118,13 +122,15 @@ public class HTTPSession implements IHTTPSession {
         this.outputStream = outputStream;
     }
 
-    public HTTPSession(NanoHTTPD httpd, ITempFileManager tempFileManager, InputStream inputStream, OutputStream outputStream, InetAddress inetAddress) {
+    public HTTPSession(NanoHTTPD httpd, ITempFileManager tempFileManager, InputStream inputStream, OutputStream outputStream, InetAddress inetAddress, int port) {
         this.httpd = httpd;
         this.tempFileManager = tempFileManager;
         this.inputStream = new BufferedInputStream(inputStream, HTTPSession.BUFSIZE);
         this.outputStream = outputStream;
         this.remoteIp = inetAddress.isLoopbackAddress() || inetAddress.isAnyLocalAddress() ? "127.0.0.1" : inetAddress.getHostAddress().toString();
+        this.remotePort = port;
         this.headers = new HashMap<String, String>();
+        
     }
 
     /**
@@ -396,6 +402,7 @@ public class HTTPSession implements IHTTPSession {
             if (null != this.remoteIp) {
                 this.headers.put("remote-addr", this.remoteIp);
                 this.headers.put("http-client-ip", this.remoteIp);
+                this.headers.put("http-client-port", this.remotePort + "");
             }
 
             this.method = Method.lookup(pre.get("method"));
