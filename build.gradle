@@ -1,25 +1,65 @@
-allprojects {
-	apply plugin: 'java'
-	apply plugin: 'idea'
-	
-	group = 'org.nanohttpd'
-	version = '2.3.2-SNAPSHOT'
+plugins {
+    id 'java'
+    id 'idea'
 }
 
-subprojects {
-	apply plugin: 'java'
-	sourceCompatibility = 1.7
-	targetCompatibility = 1.7
-	
-	repositories {
-		jcenter()
-	}
-	
-	dependencies {
-		testCompile group: 'junit', name: 'junit', version: '4.12'
-	}
+group 'com.clipsoft'
+version project.hasProperty("version") ? project.property("version") : "0.0"
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-task wrapper(type: Wrapper) {
-	gradleVersion = "4.4.1"
+
+
+ext {
+
+	
 }
+
+
+repositories {
+    mavenCentral()
+}
+
+
+compileJava {
+     sourceCompatibility=1.6
+     targetCompatibility=1.6
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+sourceSets {
+	// JAVA 소스 파일 경로,
+	// *Test.java 이름을 갖고 있는 파일은 포함하지 않는다.
+    main.java.srcDirs = ['src/main/java']
+    main.java.exclude '**/*Test.java'
+    
+    // 테스트 JAVA 소스 파일 경로, 자바 파일만 포함. 
+    test.java.srcDirs = ["src/test/java"]
+    test.java.include "**/*Test.java"
+    
+}
+
+dependencies {
+    //compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+    //compile fileTree(dir: file('lib').getAbsolutePath(), include: '**/*.jar')
+    //compile 'org.json:json:20131018'
+    
+    implementation group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
+    //compile 'com.google.guava:guava:11.0.2'
+    //compile fileTree(dir: file('buildRes/libs').getAbsolutePath(), include: ['*.jar'])
+    //compile fileTree(dir: file(prop('java4.home') + '/jre/lib').getAbsolutePath(), include: ['*.jar'])
+}
+
+test {
+    systemProperties 'property': 'value'
+}
+

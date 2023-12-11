@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26bb0eb8-d27c-4fc6-b401-9f1f6c54aa08" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/HTTPSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/IHTTPSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/NanoHTTPD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/ServerRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/content/ContentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/content/Cookie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/content/CookieHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/request/Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/response/ChunkedOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/response/IStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/response/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/response/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/sockets/DefaultServerSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/sockets/SecureServerSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/tempfiles/DefaultTempFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/tempfiles/DefaultTempFileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/tempfiles/DefaultTempFileManagerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/tempfiles/ITempFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/tempfiles/ITempFileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/threading/DefaultAsyncRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/protocols/http/threading/IAsyncRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/util/IFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/util/IFactoryThrowing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/util/IHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/nanohttpd/util/ServerRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/META-INF/nanohttpd/default-mimetypes.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/META-INF/nanohttpd/mimetypes.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/BadRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/CookieHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/CookieTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpChunkedResponseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpDeleteRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpGetRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpHeadRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpKeepAliveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpParsingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpPostRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpPutRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpSSLServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpServerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpSessionHeadersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/HttpSessionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/InvalidRequestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/JavaIOTempDirExistTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/LoadKeyStoreTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/MimeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/SSLServerSocketFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/ServerSocketFactoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/StatusTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/CookieIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/GZipIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/GetAndPostIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/IntegrationTestBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/PutStreamIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/org/nanohttpd/junit/protocols/http/integration/ShutdownTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/resources/META-INF/nanohttpd/mimetypes.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/resources/file-upload-test.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/resources/keystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/resources/multipart-form-test.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload/src/main/java/org/nanohttpd/fileupload/NanoFileUpload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileupload/src/test/java/org/nanohttpd/junit/fileupload/TestNanoFileUpLoad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/src/main/java/org/nanohttpd/markdown/MarkdownWebServerPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/src/main/java/org/nanohttpd/markdown/MarkdownWebServerPluginInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/src/main/resources/META-INF/services/org.nanohttpd.webserver.WebServerPluginInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown-plugin/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanohttpd release perform.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanohttpd release prepare.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/main/java/org/nanohttpd/router/RouterNanoHTTPD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/java/org/nanohttpd/junit/router/AppNanolets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/java/org/nanohttpd/junit/router/TestNanolets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/resources/blabla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/resources/dir/blabla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/resources/dir/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/resources/dir/nanohttpd_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nanolets/src/test/resources/exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-samples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-samples/src/main/resources/relocated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-webserver-markdown-plugin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-webserver-markdown-plugin/src/main/resources/relocated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-webserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-webserver/src/main/resources/relocated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-websocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd-websocket/src/main/resources/relocated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/nanohttpd/src/main/resources/relocated.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relocation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/org/nanohttpd/samples/http/DebugServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/org/nanohttpd/samples/http/HelloServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/main/java/org/nanohttpd/samples/tempfiles/TempFilesServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/checkstyle/checkstyle-suppressions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/checkstyle/nanohttpd-style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/formatter/formatter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/markdown/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/resources/images/nanohttpd_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/resources/images/nanohttpd_logo_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/main/java/org/nanohttpd/webserver/InternalRewrite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/main/java/org/nanohttpd/webserver/SimpleWebServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/main/java/org/nanohttpd/webserver/WebServerPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/main/java/org/nanohttpd/webserver/WebServerPluginInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/AbstractTestHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/DummyPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/DummyPluginInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/TestCorsHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/TestCorsHttpServerWithSingleOrigin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/java/org/nanohttpd/junit/webserver/TestHttpServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/resources/META-INF/services/org.nanohttpd.webserver.WebServerPluginInfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/resources/testdir/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/resources/testdir/testdir/different.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/resources/testdir/testdir/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webserver/src/test/resources/testdir/testpdf.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/CloseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/CloseFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/NanoWSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/OpCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/WebSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/WebSocketException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/protocols/websockets/WebSocketFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/samples/websockets/DebugWebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/main/java/org/nanohttpd/samples/websockets/EchoSocketSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/test/java/org/nanohttpd/junit/protocols/websockets/EchoWebSocketsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/test/java/org/nanohttpd/junit/protocols/websockets/SimpleEchoSocket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/test/java/org/nanohttpd/junit/protocols/websockets/WebSocketResponseHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocket/src/test/resources/echo-test.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ZNbJVg4zBOX7yH9wbLmhrjXhon" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Work/.gradle",
+    "mysql-explain.agentPath": "C:\\Users\\홍성범\\AppData\\Roaming\\JetBrains\\IntelliJIdea2023.2\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.1.0-jar-with-dependencies.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="26bb0eb8-d27c-4fc6-b401-9f1f6c54aa08" name="변경" comment="" />
+      <created>1702265412325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702265412325</updated>
+      <workItem from="1702265413347" duration="478000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
